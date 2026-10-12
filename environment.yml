@@ -1,0 +1,16 @@
+name: pepgate
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - jupyterlab
+  - ipykernel
+  - openpyxl

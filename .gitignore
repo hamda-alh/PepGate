@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environments
+.env
+.venv/
+env/
+
+# Cluster jobs
+slurm-*.out
+*.err
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Temporary files
+.DS_Store
+*.tmp
+
+# Large data formats (review before tracking)
+*.parquet
+*.h5
+*.hdf5

@@ -1,0 +1,440 @@
+Source,sidechain_signature,n_peptides,n_patterns,ring_size
+2006_Rezai_1,"('Abu', 'Sar', 'Leu', 'Val', 'Leu', 'Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)')",1,1,11
+2006_Rezai_1,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",9,9,6
+2006_Rezai_2,"('Leu', 'Leu', 'Leu', 'Leu', 'Leu', 'Tyr(Me)', 'Pro')",1,1,7
+2006_Rezai_2,"('Leu', 'Leu', 'Leu', 'Leu', 'Tyr(Me)', 'Pro')",5,5,6
+2006_Rezai_2,"('Leu', 'Leu', 'Leu', 'Tyr(Me)', 'Pro', 'Leu', 'Pro')",1,1,7
+2006_Rezai_2,"('Leu', 'Leu', 'Leu', 'Tyr(Me)', 'Pro', 'Pro')",1,1,6
+2006_Rezai_2,"('Leu', 'Leu', 'Pro', 'Leu', 'Leu', 'Tyr(Me)', 'Pro')",1,1,7
+2006_Rezai_2,"('Leu', 'Leu', 'Pro', 'Leu', 'Tyr(Me)', 'Pro')",1,1,6
+2006_Rezai_2,"('Leu', 'Pro', 'Leu', 'Pro', 'Leu', 'Tyr(Me)', 'Pro')",1,1,7
+2013_CHUGAI,"('Abu', 'Ala', 'Leu', 'Leu', 'Leu', 'Ser', 'Aoc(2)', 'Sar', 'Leu', 'bAla(3S-Me)', 'Leu')",1,1,11
+2013_CHUGAI,"('Abu', 'Leu', 'Ala', 'Ala', 'Leu', 'Leu', 'Leu', 'Ser', 'Abu', 'bAla(3R-CF3)', 'Leu')",1,1,11
+2013_CHUGAI,"('Abu', 'Leu', 'Leu', 'Leu', 'Leu', 'Ser', 'bAla(3S-Me)', 'Sar', 'Leu', 'Leu', 'Leu')",1,1,11
+2013_CHUGAI,"('Abu', 'Leu', 'Leu', 'Leu', 'bAla(3S-Me)', 'Ser', 'Aoc(2)', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2013_CHUGAI,"('Abu', 'Sar', 'Leu', 'Leu', 'Leu', 'Ser', 'Ala', 'Leu', 'Leu', 'Leu', 'bAla(3S-Me)')",1,1,11
+2013_CHUGAI,"('Abu', 'Sar', 'Leu', 'Val', 'bAla(3R-CF3)', 'Leu', 'Ala', 'Leu', 'Leu', 'Leu', 'Ser')",1,1,11
+2013_CHUGAI,"('Abu', 'bAla(3S-Me)', 'Leu', 'Ala', 'Leu', 'Ala', 'Leu', 'Leu', 'Leu', 'Leu', 'Ser')",1,1,11
+2013_CHUGAI,"('Abu', 'bAla(3S-Me)', 'Leu', 'Aoc(2)', 'Leu', 'Ala', 'Ala', 'Leu', 'Leu', 'Leu', 'Ser')",1,1,11
+2013_CHUGAI,"('Ala', 'Ala', 'Gly', 'bAla(3S-Me)', 'Ala', 'Phe', 'Leu', 'Ser(tBu)', 'Phe', 'Pro', 'Thr', 'Leu')",1,1,12
+2013_CHUGAI,"('Ala', 'Ala', 'Ile', 'Leu', 'Phe', 'Thr', 'Phe', 'Ala', 'Leu', 'bAla(3S-Me)')",1,1,10
+2013_CHUGAI,"('Ala', 'Ala', 'Ile', 'Leu', 'Phe(3-Cl)', 'Thr', 'Phe(3-Cl)', 'Ala', 'Leu', 'bAla(3S-Me)')",1,1,10
+2013_CHUGAI,"('Ala', 'Ala', 'Leu', 'Leu', 'Leu', 'Ser', 'Leu', 'Sar', 'Leu', 'bAla(3S-Me)', 'Leu')",1,1,11
+2013_CHUGAI,"('Ala', 'Ala', 'Leu', 'Leu', 'Leu', 'Ser', 'bAla(3R-CF3)', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2013_CHUGAI,"('Ala', 'Ala', 'Leu', 'Leu', 'bAla(3R-CF3)', 'Ser', 'Leu', 'Sar', 'Leu', 'Leu', 'Leu')",1,1,11
+2013_CHUGAI,"('Ala', 'Ala', 'Phe', 'Ala', 'Thr', 'Ala', 'Leu', 'Ser(tBu)', 'bAla(3S-Me)')",1,1,9
+2013_CHUGAI,"('Ala', 'Ala', 'Phe', 'Ala', 'Val', 'Val', 'Gly', 'Phe', 'Thr', 'Ala', 'Leu', 'bAla(3S-Me)')",1,1,12
+2013_CHUGAI,"('Ala', 'Ala', 'Phe', 'Leu', 'Thr', 'Ala', 'Leu', 'Ser(tBu)', 'bAla(3S-Me)')",1,1,9
+2013_CHUGAI,"('Ala', 'Ala', 'Phe', 'Leu', 'Val', 'Ile', 'Gly', 'Phe', 'Thr', 'Ala', 'Leu', 'bAla(3S-Me)')",1,1,12
+2013_CHUGAI,"('Ala', 'Ala', 'Phe', 'Thr', 'Phe', 'Leu', 'Pro', 'bAla(3S-Me)', 'Ala', 'Gly', 'Leu')",1,1,11
+2013_CHUGAI,"('Ala', 'Ala', 'Val', 'Leu', 'Ile', 'bAla(3S-Me)', 'Ala', 'Leu', 'Leu', 'Thr', 'Phe')",1,1,11
+2013_CHUGAI,"('Ala', 'Ala', 'bAla(3S-Me)', 'Ala', 'Thr', 'Sar', 'Phe', 'Phe', 'Ala', 'Pro', 'Leu')",1,1,11
+2013_CHUGAI,"('Ala', 'Ala', 'bAla(3S-Me)', 'bAla', 'Phe', 'Ala', 'Thr', 'Ala', 'Phe', 'Val', 'Leu')",1,1,11
+2013_CHUGAI,"('Ala', 'Gly', 'Leu', 'Ile', 'Ala', 'Phe', 'Thr', 'Phe', 'Leu', 'Pro', 'bAla(3S-Me)')",1,1,11
+2013_CHUGAI,"('Ala', 'Ile', 'Ala', 'Leu', 'Ser(tBu)', 'Leu', 'bAla(3S-Me)', 'bAla', 'Phe', 'Phe', 'Leu', 'Thr')",1,1,12
+2013_CHUGAI,"('Ala', 'Ile', 'Gly', 'bAla(3S-Me)', 'Ala', 'Phe', 'Leu', 'Ser(tBu)', 'Phe', 'Pro', 'Thr', 'Leu')",1,1,12
+2013_CHUGAI,"('Ala', 'Ile', 'Leu', 'Leu', 'Ser(tBu)', 'Leu', 'bAla(3S-Me)', 'bAla', 'Phe', 'Phe', 'Leu', 'Thr')",1,1,12
+2013_CHUGAI,"('Ala', 'Ile', 'Phe', 'Ala', 'Phe', 'bAla(3S-Me)', 'Ala', 'Leu', 'Leu', 'Val', 'Thr')",1,1,11
+2013_CHUGAI,"('Ala', 'Ile', 'Phe', 'Ala', 'Phe', 'bAla(3S-Me)', 'Ala', 'Val', 'Thr')",1,1,9
+2013_CHUGAI,"('Ala', 'Ile', 'Pro', 'Leu', 'Thr', 'Gly', 'Leu', 'Ala', 'Val', 'Leu', 'Leu', 'bAla(3S-Me)')",1,1,12
+2013_CHUGAI,"('Ala', 'Ile', 'Pro', 'Leu', 'Thr', 'Gly', 'Phe(4-CF3)', 'Ala', 'Val', 'Leu', 'Leu', 'bAla(3S-Me)')",1,1,12
+2013_CHUGAI,"('Ala', 'Leu', 'Ala', 'Leu', 'Gly', 'Ala', 'Phe(4-CF3)', 'Thr', 'Leu', 'Phe(4-CF3)', 'Val', 'bAla(3S-Me)')",1,1,12
+2013_CHUGAI,"('Ala', 'Leu', 'Ala', 'Leu', 'Gly', 'Ala', 'Phe(4-CF3)', 'Thr', 'Leu', 'Val', 'bAla(3S-Me)')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Ala', 'Thr', 'Pro', 'Ile', 'Gly', 'Ala', 'Leu', 'bAla(3S-Me)')",1,1,10
+2013_CHUGAI,"('Ala', 'Leu', 'Ala', 'Thr', 'Pro', 'Phe(3-Cl)', 'Phe(4-CF3)', 'Ile', 'Gly', 'Ala', 'Leu', 'bAla(3S-Me)')",1,1,12
+2013_CHUGAI,"('Ala', 'Leu', 'Ala', 'Thr', 'Sar', 'Phe', 'Val', 'Ala', 'Leu', 'Leu', 'bAla(3S-Me)')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Ala', 'Thr', 'Sar', 'Val', 'Ala', 'Leu', 'Leu', 'bAla(3S-Me)')",1,1,10
+2013_CHUGAI,"('Ala', 'Leu', 'Ile', 'Leu', 'Leu', 'bAla(3S-Me)', 'bAla', 'Leu', 'Thr', 'Leu', 'Sar')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Ile', 'Leu', 'Leu', 'bAla(3S-Me)', 'bAla', 'Leu', 'Thr', 'Phe(4-CF3)', 'Sar')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Ile', 'Ser(tBu)', 'bAla(3S-Me)', 'Ala', 'Leu', 'Sar', 'Leu', 'Thr')",1,1,10
+2013_CHUGAI,"('Ala', 'Leu', 'Ile', 'Ser(tBu)', 'bAla(3S-Me)', 'Ala', 'Phe', 'Sar', 'Leu', 'Thr')",1,1,10
+2013_CHUGAI,"('Ala', 'Leu', 'Ile', 'Ser(tBu)', 'bAla(3S-Me)', 'Ala', 'Phe(3-Cl)', 'Sar', 'Leu', 'Thr')",1,1,10
+2013_CHUGAI,"('Ala', 'Leu', 'Leu', 'Ile', 'bAla(3S-Me)', 'Ala', 'Leu', 'Leu', 'Thr', 'Phe', 'Leu')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Leu', 'Ile', 'bAla(3S-Me)', 'Ala', 'Leu', 'Leu', 'Thr', 'Phe(4-CF3)', 'Leu')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Leu', 'Leu', 'Ser', 'Leu', 'Sar', 'Leu', 'Leu', 'Leu', 'bAla(3S-Me)')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Leu', 'Leu', 'bAla(3S-Me)', 'Leu', 'Sar', 'Leu', 'Aoc(2)', 'Leu', 'Ser')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Leu', 'Phe', 'Ala', 'Leu', 'Phe', 'bAla(3S-Me)')",1,1,8
+2013_CHUGAI,"('Ala', 'Leu', 'Leu', 'Thr', 'Sar', 'Ser(tBu)', 'Leu', 'Ile', 'bAla(3S-Me)')",1,1,9
+2013_CHUGAI,"('Ala', 'Leu', 'Leu', 'bAla(3S-Me)', 'Ser', 'Leu', 'Sar', 'Leu', 'Val', 'Leu', 'Val')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Phe', 'Leu', 'Phe', 'Thr', 'Phe', 'Leu', 'bAla(3S-Me)')",1,1,9
+2013_CHUGAI,"('Ala', 'Leu', 'Phe', 'Leu', 'Val', 'Ile', 'Gly', 'Phe', 'Thr', 'Leu', 'Leu', 'bAla(3S-Me)')",1,1,12
+2013_CHUGAI,"('Ala', 'Leu', 'Phe', 'Leu', 'Val', 'Ile', 'Gly', 'Phe(3-Cl)', 'Thr', 'Leu', 'Leu', 'bAla(3S-Me)')",1,1,12
+2013_CHUGAI,"('Ala', 'Leu', 'Phe', 'Thr', 'Phe', 'Leu', 'Ala', 'bAla(3S-Me)', 'Val', 'Ile', 'Leu')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Ser(tBu)', 'Leu', 'bAla(3S-Me)', 'Ala', 'Phe', 'Ala', 'Leu', 'Thr', 'Ile')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Ser(tBu)', 'Leu', 'bAla(3S-Me)', 'Ala', 'Phe', 'Ala', 'Leu', 'Thr', 'Phe', 'Ile')",1,1,12
+2013_CHUGAI,"('Ala', 'Leu', 'Ser(tBu)', 'Leu', 'bAla(3S-Me)', 'Ala', 'Phe', 'Leu', 'Leu', 'Thr', 'Ile')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'Ser(tBu)', 'Leu', 'bAla(3S-Me)', 'Ala', 'Phe', 'Leu', 'Leu', 'Thr', 'Phe', 'Ile')",1,1,12
+2013_CHUGAI,"('Ala', 'Leu', 'Ser(tBu)', 'bAla(3S-Me)', 'Val', 'Leu', 'Ala', 'Leu', 'Thr')",1,1,9
+2013_CHUGAI,"('Ala', 'Leu', 'Ser(tBu)', 'bAla(3S-Me)', 'Val', 'Phe(3-Cl)', 'Ala', 'Leu', 'Thr')",1,1,9
+2013_CHUGAI,"('Ala', 'Leu', 'Thr', 'Ala', 'Leu', 'bAla(3S-Me)', 'Val', 'Leu', 'Leu', 'Ile')",1,1,10
+2013_CHUGAI,"('Ala', 'Leu', 'Thr', 'Phe', 'Phe', 'Leu', 'Ser(tBu)', 'Leu', 'Ala', 'bAla(3S-Me)', 'Val', 'Ile')",1,1,12
+2013_CHUGAI,"('Ala', 'Leu', 'Thr', 'Sar', 'Ser(tBu)', 'Leu', 'Ile', 'bAla(3S-Me)')",1,1,8
+2013_CHUGAI,"('Ala', 'Leu', 'bAla(3S-Me)', 'Leu', 'Ser', 'Val', 'Sar', 'Leu', 'Val', 'Leu', 'Leu')",1,1,11
+2013_CHUGAI,"('Ala', 'Leu', 'bAla(3S-Me)', 'Val', 'Leu', 'Ile', 'Ala', 'Phe(3-Cl)', 'Thr')",1,1,9
+2013_CHUGAI,"('Ala', 'Leu', 'bAla(3S-Me)', 'Val', 'Phe', 'Leu', 'Ile', 'Ala', 'Phe', 'Thr')",1,1,10
+2013_CHUGAI,"('Ala', 'Leu', 'bAla(3S-Me)', 'Val', 'Phe', 'Leu', 'Ile', 'Leu', 'Phe', 'Thr')",1,1,10
+2013_CHUGAI,"('Ala', 'Leu', 'bAla(3S-Me)', 'Val', 'Phe', 'Leu', 'Ile', 'Leu', 'Phe(3-Cl)', 'Thr')",1,1,10
+2013_CHUGAI,"('Ala', 'Leu', 'bAla(3S-Me)', 'Val', 'Phe(3-Cl)', 'Leu', 'Ile', 'Ala', 'Phe(3-Cl)', 'Thr')",1,1,10
+2013_CHUGAI,"('Ala', 'Phe', 'Aoc(2)', 'Leu', 'Thr', 'Sar', 'Ala', 'Ser(tBu)', 'Phe', 'Val', 'bAla(3S-Me)')",1,1,11
+2013_CHUGAI,"('Ala', 'Phe', 'Aoc(2)', 'Leu', 'Thr', 'Sar', 'Ala', 'Ser(tBu)', 'Val', 'bAla(3S-Me)')",1,1,10
+2013_CHUGAI,"('Ala', 'Phe', 'Leu', 'Leu', 'Leu', 'Phe', 'Leu', 'Thr', 'bAla(3S-Me)')",1,1,9
+2013_CHUGAI,"('Ala', 'Phe', 'Leu', 'Leu', 'Thr', 'Sar', 'Ile', 'Ser(tBu)', 'Phe', 'Val', 'bAla(3S-Me)')",1,1,11
+2013_CHUGAI,"('Ala', 'Phe', 'Leu', 'Leu', 'Thr', 'Sar', 'Ile', 'Ser(tBu)', 'Val', 'bAla(3S-Me)')",1,1,10
+2013_CHUGAI,"('Ala', 'Phe', 'Leu', 'Phe', 'Leu', 'Leu', 'Thr', 'Gly', 'Phe', 'bAla(3S-Me)')",1,1,10
+2013_CHUGAI,"('Ala', 'Phe', 'Leu', 'Phe', 'Leu', 'bAla(3S-Me)', 'Val', 'Ala', 'Thr')",1,1,9
+2013_CHUGAI,"('Ala', 'Phe', 'Leu', 'Phe', 'bAla(3S-Me)', 'Val', 'Ala', 'Thr')",1,1,8
+2013_CHUGAI,"('Ala', 'Phe', 'Leu', 'Ser(tBu)', 'Phe', 'Pro', 'Thr', 'Leu', 'Ile', 'Gly', 'bAla(3S-Me)')",1,1,11
+2013_CHUGAI,"('Ala', 'Phe', 'Leu', 'Thr', 'Sar', 'Ser(tBu)', 'Leu', 'Ile', 'bAla(3S-Me)')",1,1,9
+2013_CHUGAI,"('Ala', 'Phe', 'Leu', 'Thr', 'Sar', 'Ser(tBu)', 'Leu', 'bAla(3S-Me)')",1,1,8
+2013_CHUGAI,"('Ala', 'Phe(3-Cl)', 'Leu', 'Thr', 'Sar', 'Ser(tBu)', 'Leu', 'Ile', 'bAla(3S-Me)')",1,1,9
+2013_CHUGAI,"('Ala', 'Phe(4-CF3)', 'Leu', 'Leu', 'bAla(3S-Me)', 'Val', 'Leu', 'Thr')",1,1,8
+2013_CHUGAI,"('Ala', 'Phe(4-CF3)', 'Leu', 'Phe', 'Leu', 'bAla(3S-Me)', 'Val', 'Leu', 'Thr')",1,1,9
+2013_CHUGAI,"('Ala', 'Phe(4-CF3)', 'Leu', 'Phe(3-Cl)', 'Leu', 'bAla(3S-Me)', 'Val', 'Leu', 'Thr')",1,1,9
+2013_CHUGAI,"('Ala', 'Pro', 'Leu', 'Aoc(2)', 'Val', 'bAla(3S-Me)', 'Ala', 'Thr', 'Sar', 'Phe', 'Phe')",1,1,11
+2013_CHUGAI,"('Ala', 'Ser(tBu)', 'Phe', 'Leu', 'Gly', 'bAla(3S-Me)', 'bAla', 'Thr')",1,1,8
+2013_CHUGAI,"('Ala', 'Thr', 'Sar', 'Phe', 'Phe', 'Leu', 'Pro', 'Leu', 'Ala', 'Val', 'bAla(3S-Me)')",1,1,11
+2013_CHUGAI,"('Ala', 'bAla(3S-Me)', 'Leu', 'Leu', 'Leu', 'Ser', 'Leu', 'Sar', 'Leu', 'Leu', 'Leu')",1,1,11
+2013_CHUGAI,"('Gly', 'Val', 'Phe', 'bAla(3S-Me)', 'bAla', 'Ser(tBu)', 'Leu', 'Leu', 'Thr', 'Phe')",1,1,10
+2013_CHUGAI,"('Gly', 'Val', 'Phe(4-CF3)', 'bAla(3S-Me)', 'bAla', 'Ser(tBu)', 'Leu', 'Leu', 'Thr', 'Phe(3-Cl)')",1,1,10
+2013_CHUGAI,"('Ile', 'Ser(tBu)', 'Val', 'bAla(3S-Me)', 'Leu', 'Phe', 'Leu', 'Leu', 'Thr', 'Sar')",1,1,10
+2013_CHUGAI,"('Leu', 'Leu', 'Leu', 'Leu', 'Leu', 'Leu', 'Ser', 'Leu', 'Sar', 'bAla(3S-Me)', 'Val')",1,1,11
+2013_CHUGAI,"('Leu', 'Leu', 'Leu', 'Leu', 'Leu', 'Ser', 'Leu', 'Sar', 'Leu', 'Val', 'bAla(3S-Me)')",1,1,11
+2013_CHUGAI,"('Leu', 'Leu', 'Leu', 'bAla(3S-Me)', 'Leu', 'Leu', 'Ser', 'Leu', 'Sar', 'Leu', 'Val')",1,1,11
+2015_Ahlbach,"('2Abz', 'Ala', 'Phe', 'Leu', 'Tyr')",1,1,5
+2015_Ahlbach,"('Abu', 'Sar', 'Leu', 'Val', 'Leu', 'Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)')",4,3,11
+2015_Ahlbach,"('Aib', 'Phe', 'Phe', 'Phe', 'Leu', 'Pro', 'Leu')",1,1,7
+2015_Ahlbach,"('Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)', 'Ala', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2015_Ahlbach,"('Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)', 'Thr', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2015_Ahlbach,"('Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)', 'Val', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2015_Ahlbach,"('Ala', 'Gly', 'Ile', 'Ser', 'Val', 'Ser', 'Val', 'Phe', 'Gly', 'Val', 'Thr', 'Val', 'Thr', 'Val')",1,1,14
+2015_Ahlbach,"('Ala', 'Gly', 'Val', 'Ser', 'Val', 'Ser', 'Val', 'Phe', 'Gly', 'Val', 'Thr', 'Val', 'Thr', 'Val')",1,1,14
+2015_Ahlbach,"('Ala', 'Leu', 'Phe(a,b-dehydro)', 'Gly')",1,1,4
+2015_Ahlbach,"('Ile', 'Pro', 'Tyr(Me)', 'Thr')",1,1,4
+2015_Bockus_1,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",1,1,6
+2015_Bockus_1,"('Leu', 'Leu', 'Sta', 'Leu', 'Pro', 'Sta')",6,6,6
+2015_Bockus_1,"('Leu', 'Leu', 'Sta', 'Leu', 'Pro', 'Sta(3R,4R)')",1,1,6
+2015_Bockus_1,"('Leu', 'Leu', 'Sta(3R,4R)', 'Leu', 'Pro', 'Sta')",2,2,6
+2015_Bockus_1,"('Leu', 'Leu', 'Sta(3R,4R)', 'Leu', 'Pro', 'Sta(3R,4R)')",1,1,6
+2015_Lewis,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",2,2,6
+2015_Marelli,"('Ala', 'Ala', 'Ala', 'Ala', 'Ala', 'Ala')",6,6,6
+2015_Marelli,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",2,2,6
+2015_Marelli,"('Lys', 'Thr', 'Phe', 'Pro', 'Phe', 'Trp')",2,2,6
+2015_Nielsen,"('Leu', 'Leu', 'Leu', 'Leu', 'Leu', 'Tyr')",1,1,6
+2015_Nielsen,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",1,1,6
+2015_Nielsen,"('Leu', 'Leu', 'Pro', 'Tyr', 'Leu', 'Pro')",1,1,6
+2015_Wang,"('Ala', 'Ala', 'Ala', 'Ala', 'Ala', 'Ala')",1,1,6
+2015_Wang,"('Ala', 'Gly', 'Phe', 'Leu', 'Leu', 'Tyr')",1,1,6
+2015_Wang,"('Ala', 'Gly', 'Phe', 'Leu', 'Pro', 'Tyr')",6,6,6
+2015_Wang,"('Ala', 'Gly', 'Thr', 'Phe', 'Leu', 'Tyr')",1,1,6
+2015_Wang,"('Ala', 'Sar', 'Phe', 'Leu', 'Leu', 'Tyr')",1,1,6
+2015_Wang,"('Ala', 'Sar', 'Phe', 'Leu', 'Pro', 'Tyr')",5,5,6
+2015_Wang,"('Ala', 'Tyr', 'Asn', 'Phe', 'Gly', 'Leu')",1,1,6
+2015_Wang,"('Ala(indol-2-yl)', 'Ala(indol-2-yl)', 'Pro', 'Ala(indol-2-yl)', 'Leu', 'Leu')",1,1,6
+2015_Wang,"('Ala(indol-2-yl)', 'Arg', 'Arg', 'Arg', 'Lys', 'Pro')",1,1,6
+2015_Wang,"('Ala(indol-2-yl)', 'Ile', 'Leu', 'Ile', 'Ile', 'Pro')",1,1,6
+2015_Wang,"('Ala(indol-2-yl)', 'Leu', 'Leu', 'Ala(indol-2-yl)', 'Leu', 'Pro')",1,1,6
+2015_Wang,"('Ala(indol-2-yl)', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro')",4,4,6
+2015_Wang,"('Ala(indol-2-yl)', 'Leu', 'Leu', 'Leu', 'Pro', 'Pro')",1,1,6
+2015_Wang,"('Ala(indol-2-yl)', 'Lys', 'Thr', 'Phe', 'Pro', 'Phe')",2,2,6
+2015_Wang,"('Ala(indol-2-yl)', 'Phe', 'Phe', 'Phe', 'Phe', 'Pro')",1,1,6
+2015_Wang,"('Ala(indol-2-yl)', 'Val', 'Leu', 'Pro', 'Phe', 'Phe')",3,3,6
+2015_Wang,"('Gly', 'Leu', 'Pro', 'Phe', 'Tyr', 'Pro')",1,1,6
+2015_Wang,"('Gly', 'Leu', 'Val', 'Ile', 'Tyr', 'Pro')",1,1,6
+2015_Wang,"('Gly', 'Phe', 'Tyr', 'Ile', 'Gly', 'Val')",1,1,6
+2015_Wang,"('Gly', 'Thr', 'Phe', 'Leu', 'Tyr', 'Thr')",1,1,6
+2015_Wang,"('Gly', 'Thr', 'Phe', 'Leu', 'Tyr', 'Val')",1,1,6
+2015_Wang,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",19,19,6
+2015_Wang,"('Leu', 'Leu', 'Leu', 'Pro', 'Pro', 'Tyr')",3,3,6
+2015_Wang,"('Leu', 'Leu', 'Phe', 'Leu', 'Pro', 'Tyr')",1,1,6
+2015_Wang,"('Leu', 'Pro', 'Tyr', 'Leu', 'Sar', 'Phe')",1,1,6
+2015_Wang,"('Leu', 'Tyr', 'Thr', 'Sar', 'Thr', 'Phe')",2,2,6
+2016_Frost,"('Ala', 'Leu', 'Ala', 'Phe', 'Ala', 'Pro')",1,1,6
+2016_Frost,"('Ala', 'Leu', 'Gly', 'Phe', 'Ala', 'Pro')",1,1,6
+2016_Frost,"('Ala', 'Phe', 'Ala', 'Pro', 'Gly', 'Leu')",1,1,6
+2016_Frost,"('Ala', 'Pro', 'Gly', 'Leu', 'Gly', 'Phe')",1,1,6
+2016_Frost,"('Ala', 'Pro', 'Phe', 'Leu', 'Leu', 'Phe')",1,1,6
+2016_Hickey,"('Abu', 'Sar', 'Leu', 'Val', 'Leu', 'Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)')",1,1,11
+2016_Hickey,"('Ala', 'Pro', 'Ser', 'Leu', 'Phe', 'Phe')",1,1,6
+2016_Hickey,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",1,1,6
+2017_Pye,"('Abu', 'Abu', 'Ala', 'Abu', 'Pro', 'Tyr', 'Ala', 'Nva', 'Abu', 'Ala')",1,1,10
+2017_Pye,"('Abu', 'Ala', 'Abu', 'Ala', 'Ala', 'Abu', 'Pro', 'Tyr', 'Nva')",1,1,9
+2017_Pye,"('Abu', 'Ala', 'Ala', 'Nle', 'Ala', 'Ala', 'Pro', 'Tyr')",1,1,8
+2017_Pye,"('Abu', 'Ala', 'Nle', 'Ala', 'Nle', 'Ala', 'Pro', 'Tyr', 'Nva')",1,1,9
+2017_Pye,"('Abu', 'Ala', 'Nva', 'Abu', 'Pro', 'Tyr', 'Ala', 'Nva', 'Abu', 'Nle')",1,1,10
+2017_Pye,"('Abu', 'Nle', 'Abu', 'Nle', 'Nle', 'Abu', 'Pro', 'Tyr', 'Ala', 'Nva')",1,1,10
+2017_Pye,"('Abu', 'Nle', 'Abu', 'Nle', 'Nle', 'Ala', 'Pro', 'Tyr')",1,1,8
+2017_Pye,"('Abu', 'Nle', 'Nle', 'Nle', 'Nle', 'Nle', 'Pro', 'Tyr')",1,1,8
+2017_Pye,"('Abu', 'Nle', 'Nle', 'Nle', 'Nle', 'Nle', 'Pro', 'Tyr', 'Nva')",1,1,9
+2017_Pye,"('Abu', 'Nva', 'Nva', 'Nva', 'Abu', 'Nva', 'Pro', 'Tyr', 'Nva')",1,1,9
+2017_Pye,"('Abu', 'Nva', 'Nva', 'Nva', 'Nva', 'Nva', 'Pro', 'Tyr')",1,1,8
+2017_Pye,"('Ala', 'Ala', 'Ala', 'Ala', 'Ala', 'Ala', 'Pro', 'Tyr')",1,1,8
+2017_Pye,"('Ala', 'Ala', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",1,1,8
+2017_Pye,"('Ala', 'Ala', 'Leu', 'Leu', 'Pro', 'Tyr', 'Leu', 'Leu')",1,1,8
+2017_Pye,"('Ala', 'Ala', 'Pro', 'Tyr', 'Ala', 'Leu', 'Ala', 'Leu')",1,1,8
+2017_Pye,"('Ala', 'Ala', 'Pro', 'Tyr', 'Leu', 'Leu', 'Leu', 'Leu')",1,1,8
+2017_Pye,"('Ala', 'Leu', 'Ala', 'Leu', 'Leu', 'Pro', 'Tyr', 'Leu')",1,1,8
+2017_Pye,"('Ala', 'Leu', 'Leu', 'Ala', 'Leu', 'Pro', 'Tyr', 'Leu')",1,1,8
+2017_Pye,"('Ala', 'Leu', 'Leu', 'Leu', 'Ala', 'Pro', 'Tyr', 'Leu')",1,1,8
+2017_Pye,"('Ala', 'Leu', 'Leu', 'Leu', 'Leu', 'Ala', 'Pro', 'Tyr')",1,1,8
+2017_Pye,"('Leu', 'Leu', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",1,1,8
+2018_Buckton,"('Asn', 'Ser', 'Tyr', 'Phe', 'Lys')",1,1,5
+2018_Buckton,"('Asn', 'Ser(Me)', 'Tyr(Me)', 'Phe', 'Lys(Me2)')",1,1,5
+2018_García-Pindado,"('Lys', 'Trp', 'Lys', 'Trp', 'Pro')",1,1,5
+2018_García-Pindado,"('Lys', 'Trp(5-Br)', 'Lys', 'Trp(5-Br)', 'Pro')",1,1,5
+2018_García-Pindado,"('Lys', 'Trp(6-Br)', 'Lys', 'Trp(6-Br)', 'Pro')",1,1,5
+2018_García-Pindado,"('Lys', 'Trp(7-Br)', 'Lys', 'Trp(7-Br)', 'Pro')",1,1,5
+2018_Lee,"('Asn', 'Ser', 'Tyr', 'Phe', 'Lys')",6,6,5
+2018_Naylor,"('Abu', 'Abu', 'Leu', 'Pro', 'Phe', 'Leu')",2,2,6
+2018_Naylor,"('Abu', 'Abu', 'Leu', 'Pro', 'Tyr', 'Leu')",1,1,6
+2018_Naylor,"('Abu', 'Ala', 'Leu', 'Pro', 'Ala', 'Leu')",1,1,6
+2018_Naylor,"('Abu', 'Ala', 'Leu', 'Pro', 'Phe', 'Leu')",1,1,6
+2018_Naylor,"('Abu', 'Cha', 'Cha', 'Pro', 'Phe', 'Leu')",2,2,6
+2018_Naylor,"('Abu', 'Cha', 'Cha', 'Pro', 'Tyr', 'Leu')",2,2,6
+2018_Naylor,"('Abu', 'Leu', 'Abu', 'Sar', 'Leu', 'Val', 'Leu', 'Ala', 'Ala', 'Leu', 'Leu')",1,1,11
+2018_Naylor,"('Abu', 'Leu', 'Leu', 'Pro', 'Cha', 'Leu')",1,1,6
+2018_Naylor,"('Abu', 'Leu', 'Leu', 'Pro', 'Phe', 'Leu')",1,1,6
+2018_Naylor,"('Abu', 'Leu', 'Leu', 'Pro', 'Tyr', 'Leu')",2,2,6
+2018_Naylor,"('Abu', 'Leu', 'Pro', 'Phe', 'Leu', 'Ala')",1,1,6
+2018_Naylor,"('Abu', 'Leu', 'Pro', 'Phe', 'Leu', 'Leu')",1,1,6
+2018_Naylor,"('Abu', 'Leu', 'Pro', 'Tyr', 'Leu', 'Ala')",1,1,6
+2018_Naylor,"('Abu', 'Sar', 'Leu', 'Val', 'Leu', 'Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)')",3,2,11
+2018_Naylor,"('Abu', 'Sar', 'Leu', 'Val', 'Leu', 'Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Leu')",1,1,11
+2018_Naylor,"('Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)', 'Ala', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2018_Naylor,"('Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)', 'Thr', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2018_Naylor,"('Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)', 'Val', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2018_Naylor,"('Ala', 'Ala', 'Leu', 'Pro', 'Ala', 'Leu')",1,1,6
+2018_Naylor,"('Ala', 'Ala', 'Leu', 'Pro', 'Phe', 'Leu')",2,2,6
+2018_Naylor,"('Ala', 'Ala', 'Leu', 'Pro', 'Tyr', 'Leu')",1,1,6
+2018_Naylor,"('Ala', 'Cha', 'Cha', 'Pro', 'Phe', 'Leu')",2,2,6
+2018_Naylor,"('Ala', 'Cha', 'Cha', 'Pro', 'Tyr', 'Leu')",1,1,6
+2018_Naylor,"('Ala', 'Ile', 'Leu', 'Phe', 'Pro', 'Sar', 'Phe')",1,1,7
+2018_Naylor,"('Ala', 'Leu', 'Leu', 'Ala', 'Leu', 'Pro')",1,1,6
+2018_Naylor,"('Ala', 'Leu', 'Leu', 'Ala', 'Phe', 'Leu')",1,1,6
+2018_Naylor,"('Ala', 'Leu', 'Leu', 'Ala', 'Pro', 'Phe')",1,1,6
+2018_Naylor,"('Ala', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro')",1,1,6
+2018_Naylor,"('Ala', 'Leu', 'Leu', 'Leu', 'Pro', 'Phe')",1,1,6
+2018_Naylor,"('Ala', 'Leu', 'Leu', 'Pro', 'Phe', 'Leu')",1,1,6
+2018_Naylor,"('Ala', 'Leu', 'Leu', 'Pro', 'Tyr', 'Leu')",2,2,6
+2018_Naylor,"('Ala', 'Leu', 'Nva', 'Ala', 'Leu', 'Pro')",1,1,6
+2018_Naylor,"('Ala', 'Leu', 'Phe', 'Pro', 'Sar', 'Phe', 'Tyr')",1,1,7
+2018_Naylor,"('Ala', 'Leu', 'Pro', 'Phe', 'Leu', 'Leu')",1,1,6
+2018_Naylor,"('Ala', 'Leu', 'Pro', 'Tyr', 'Leu', 'Leu')",1,1,6
+2018_Naylor,"('Ala', 'Phe', 'Leu', 'Leu', 'Leu', 'Leu')",1,1,6
+2018_Naylor,"('Ala', 'Phe', 'Pro', 'Sar', 'Phe', 'Tyr', 'Ile')",1,1,7
+2018_Naylor,"('Ala', 'Pro', 'Phe', 'Leu', 'Leu', 'Leu')",1,1,6
+2018_Naylor,"('Ala', 'Pro', 'Sar', 'Phe', 'Tyr', 'Ile', 'Leu')",1,1,7
+2018_Naylor,"('Ala', 'Sar', 'Phe', 'Tyr', 'Ile', 'Leu', 'Phe')",1,1,7
+2018_Naylor,"('Ala', 'Tyr', 'Ile', 'Leu', 'Phe', 'Pro', 'Sar')",1,1,7
+2018_Naylor,"('Cha', 'Cha', 'Pro', 'Phe', 'Leu', 'Leu')",2,2,6
+2018_Naylor,"('Cha', 'Cha', 'Pro', 'Phe', 'Leu', 'Nva')",1,1,6
+2018_Naylor,"('Cha', 'Cha', 'Pro', 'Tyr', 'Leu', 'Leu')",2,2,6
+2018_Naylor,"('Cha', 'Cha', 'Pro', 'Tyr', 'Leu', 'Nva')",2,2,6
+2018_Naylor,"('Cha', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro')",1,1,6
+2018_Naylor,"('Cha', 'Leu', 'Pro', 'Phe', 'Leu', 'Leu')",2,2,6
+2018_Naylor,"('Cha', 'Leu', 'Pro', 'Tyr', 'Leu', 'Leu')",2,2,6
+2018_Naylor,"('Ile', 'Leu', 'Phe', 'Pro', 'Sar', 'Phe', 'Phe')",1,1,7
+2018_Naylor,"('Ile', 'Leu', 'Phe', 'Pro', 'Sar', 'Phe', 'Tyr')",1,1,7
+2018_Naylor,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Phe')",2,2,6
+2018_Naylor,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",2,2,6
+2018_Naylor,"('Leu', 'Leu', 'Pro', 'Phe', 'Leu', 'Pro')",1,1,6
+2018_Naylor,"('Leu', 'Leu', 'Pro', 'Tyr', 'Leu', 'Phe')",1,1,6
+2018_Naylor,"('Leu', 'Phe', 'Pro', 'Sar', 'Phe', 'Tyr', 'Val')",1,1,7
+2018_Ramalho,"('Asn', 'Leu', 'Trp', 'Gly', 'Pro', 'Gly', 'Leu', 'Leu')",1,1,8
+2018_Ramalho,"('Gly', 'Gly', 'Thr', 'Ile', 'Ile', 'Phe', 'Gly', 'Phe')",1,1,8
+2018_Ramalho,"('Gly', 'Ile', 'Leu', 'Gly', 'Ser', 'Ile', 'Ile', 'Leu')",2,2,8
+2018_Ramalho,"('Gly', 'Ile', 'Leu', 'Sar', 'Ser', 'Ile', 'Ile', 'Leu')",3,3,8
+2018_Ramalho,"('Gly', 'Phe', 'Gly', 'Sar', 'Thr', 'Ile', 'Ile', 'Phe')",2,2,8
+2018_Ramalho,"('Ile', 'Ile', 'Phe', 'Sar', 'Phe', 'Sar', 'Sar', 'Thr')",1,1,8
+2019_Ono,"('Leu', 'Leu', 'Leu', 'Leu', 'Tyr', 'Pro')",8,8,6
+2020_Hosono,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",6,6,6
+2020_Townsend,"('Ala', 'Leu', 'Leu', 'Pro', 'Leu', 'Phe')",374,374,6
+2020_Townsend,"('Ala', 'Leu', 'Leu', 'Pro', 'Leu', 'Phe', 'Pro')",641,641,7
+2020_Townsend,"('Ala', 'Leu', 'beta-hPhe', 'Pro', 'Leu', 'Phe')",79,79,6
+2020_Townsend,"('Ala', 'Leu', 'beta-hPhe', 'Pro', 'Leu', 'Phe', 'Pro')",137,137,7
+2020_Townsend,"('Leu', 'Leu', 'Pro', 'Leu', 'Phe', 'Pro', 'beta-hPhe')",166,166,7
+2020_Townsend,"('Leu', 'Leu', 'Pro', 'Leu', 'Phe', 'beta-hPhe')",88,88,6
+2020_Townsend,"('Leu', 'Phe', 'Pro', 'beta-hPhe', 'Leu', 'beta-hPhe', 'Pro')",42,42,7
+2020_Townsend,"('Leu', 'Phe', 'beta-hPhe', 'Leu', 'beta-hPhe', 'Pro')",22,22,6
+2021_Comeau,"('5-Ava', 'Ala', 'Leu', 'Phe')",1,1,4
+2021_Comeau,"('5-Ava', 'Leu', 'Sar', 'Phe')",1,1,4
+2021_Comeau,"('5-Ava', 'Sar', 'Leu', 'Phe')",1,1,4
+2021_Lee,"('Abu', 'Sar', 'Leu', 'Val', 'Leu', 'Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)')",1,1,11
+2021_Lee,"('Ala', 'Ala', 'Leu', 'Leu', 'Leu', 'Leu', 'Nva', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2021_Lee,"('Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Leu', 'Nva', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2021_Lee,"('Ala', 'Leu', 'Leu', 'Leu', 'Leu', 'Nva', 'Sar', 'Leu', 'Val', 'Leu', 'Gln')",1,1,11
+2021_Lee,"('Ala', 'Leu', 'Leu', 'Val', 'Leu', 'Nva', 'Sar', 'Leu', 'Val', 'Leu', 'Gln')",1,1,11
+2021_Wang,"('Ala', 'Ala', 'Leu', 'Ala', 'Leu', 'Ala', 'Ala', 'Leu', 'Ala', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Ala', 'Leu', 'Hyp', 'Ala', 'Leu', 'Ala', 'Leu', 'Pro')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Ala', 'Leu', 'Pro', 'Ala', 'Leu', 'Ala', 'Leu', 'Pro')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Ala', 'Leu', 'Pro', 'Ala', 'Leu', 'Ala', 'Thr', 'Pro')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Ala', 'Leu', 'Pro', 'Ala', 'Leu', 'Thr', 'Leu', 'Pro')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Ala', 'Leu', 'Pro', 'Ala', 'Thr', 'Ala', 'Leu', 'Pro')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Ala', 'Phe', 'Leu', 'Ala', 'Leu', 'Ala', 'Phe', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Ala', 'Val', 'Leu', 'Ala', 'Leu', 'Ala', 'Val', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Ala', 'Val', 'Leu', 'Ala', 'Leu', 'Pro', 'Pro', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Ala', 'Val', 'Leu', 'Ala', 'Leu', 'Pro', 'Val', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Hyp', 'Phe', 'Leu', 'Ala', 'Leu', 'Hyp', 'Thr', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Pro', 'Ala', 'Leu', 'Thr', 'Leu', 'Pro', 'Thr', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Pro', 'Phe', 'Leu', 'Ala', 'Leu', 'Pro', 'Phe', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Pro', 'Phe', 'Leu', 'Ala', 'Leu', 'Pro', 'Phe', 'Thr')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Pro', 'Phe', 'Leu', 'Ala', 'Leu', 'Pro', 'Thr', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Pro', 'Phe', 'Leu', 'Ala', 'Thr', 'Pro', 'Phe', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Pro', 'Phe', 'Leu', 'Thr', 'Leu', 'Pro', 'Phe', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Pro', 'Pro', 'Leu', 'Ala', 'Leu', 'Pro', 'Pro', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Pro', 'Thr', 'Leu', 'Ala', 'Leu', 'Pro', 'Thr', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Pro', 'Val', 'Leu', 'Ala', 'Leu', 'Pro', 'Val', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Sar', 'Pro', 'Leu', 'Ala', 'Leu', 'Sar', 'Pro', 'Leu')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Thr', 'Leu', 'Pro', 'Ala', 'Leu', 'Thr', 'Leu', 'Pro')",1,1,10
+2021_Wang,"('Ala', 'Leu', 'Thr', 'Leu', 'Pro', 'Thr', 'Leu', 'Thr', 'Leu', 'Pro')",1,1,10
+2021_Wang,"('Leu', 'Pro', 'Thr', 'Leu', 'Thr', 'Leu', 'Pro', 'Thr', 'Leu', 'Thr')",1,1,10
+2022_Bhardwaj,"('Aib', 'Leu', 'Aib', 'Val', 'Pro', 'Leu', 'Ile', 'Pro', 'Pro')",1,1,9
+2022_Bhardwaj,"('Aib', 'Leu', 'Ile', 'Pro', 'Aib', 'Leu', 'Ile', 'Pro')",1,1,8
+2022_Bhardwaj,"('Ala', 'Ala', 'Ile', 'Pro', 'Phe', 'Ile', 'Pro', 'Leu', 'Leu', 'Leu', 'Pro', 'Pro')",1,1,12
+2022_Bhardwaj,"('Ala', 'Ala', 'Ile', 'Pro', 'Pro', 'Leu', 'Leu', 'Leu', 'Pro')",1,1,9
+2022_Bhardwaj,"('Ala', 'Ala', 'Leu', 'Leu', 'Leu', 'Pro', 'Phe', 'Ala', 'Pro', 'Pro', 'Pro')",1,1,11
+2022_Bhardwaj,"('Ala', 'Ala', 'Leu', 'Leu', 'Phe', 'Pro', 'Pro', 'Pro', 'Val')",1,1,9
+2022_Bhardwaj,"('Ala', 'Ala', 'Leu', 'Leu', 'Pro', 'Pro', 'Leu', 'Val')",1,1,8
+2022_Bhardwaj,"('Ala', 'Ala', 'Leu', 'Pro', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ala', 'Ala', 'Leu', 'Pro', 'Val', 'Leu', 'Pro', 'Ile')",1,1,8
+2022_Bhardwaj,"('Ala', 'Ala', 'Phe', 'Leu', 'Pro', 'Ala', 'Val', 'Leu', 'Phe', 'Ile')",1,1,10
+2022_Bhardwaj,"('Ala', 'Ala', 'Pro', 'Leu', 'Leu', 'Pro', 'Leu', 'Val')",1,1,8
+2022_Bhardwaj,"('Ala', 'Ala', 'Pro', 'Pro', 'Val', 'Met', 'Pro', 'Val', 'Leu')",1,1,9
+2022_Bhardwaj,"('Ala', 'Ala', 'Val', 'Leu', 'Leu', 'Leu', 'Pro', 'Leu', 'Pro')",1,1,9
+2022_Bhardwaj,"('Ala', 'Ala', 'Val', 'Phe', 'Leu', 'Ala', 'Pro', 'Val', 'Pro', 'Phe')",1,1,10
+2022_Bhardwaj,"('Ala', 'Ala', 'Val', 'Pro', 'Pro', 'Ile', 'Val', 'Leu')",1,1,8
+2022_Bhardwaj,"('Ala', 'Gly', 'Pro', 'Phe', 'Phe', 'Phe', 'Phe', 'Ala', 'Phe', 'Pro')",1,1,10
+2022_Bhardwaj,"('Ala', 'Ile', 'Leu', 'Leu', 'Phe', 'Ala', 'Pro', 'Pro', 'Pro')",1,1,9
+2022_Bhardwaj,"('Ala', 'Ile', 'Pro', 'Ala', 'Val', 'Pro', 'Pro', 'Leu', 'Ile')",1,1,9
+2022_Bhardwaj,"('Ala', 'Ile', 'Pro', 'Ile', 'Pro', 'Leu', 'Leu', 'Pro', 'Leu', 'Phe', 'Leu')",1,1,11
+2022_Bhardwaj,"('Ala', 'Ile', 'Pro', 'Leu', 'Leu', 'Phe', 'Pro', 'Pro')",1,1,8
+2022_Bhardwaj,"('Ala', 'Ile', 'Pro', 'Pro', 'Gly', 'Ile', 'Leu', 'Val', 'Pro')",1,1,9
+2022_Bhardwaj,"('Ala', 'Ile', 'Pro', 'Pro', 'Leu', 'Ile', 'Ala', 'Val', 'Leu', 'Pro', 'Ile')",1,1,11
+2022_Bhardwaj,"('Ala', 'Ile', 'Pro', 'Pro', 'Phe', 'Ala', 'Leu', 'Pro', 'Val', 'Leu', 'Leu')",1,1,11
+2022_Bhardwaj,"('Ala', 'Ile', 'Pro', 'Pro', 'Val', 'Val', 'Leu', 'Leu', 'Pro', 'Pro', 'Ile')",1,1,11
+2022_Bhardwaj,"('Ala', 'Leu', 'Ala', 'Leu', 'Pro', 'Ala', 'Pro', 'Pro', 'Leu', 'Met')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Ala', 'Leu', 'Pro', 'Pro', 'Ile', 'Leu', 'Ile', 'Pro')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Ala', 'Leu', 'Pro', 'Pro', 'Val', 'Ile', 'Pro', 'Phe')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Ala', 'Pro', 'Pro', 'Pro', 'Pro', 'Val', 'Leu', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Ile', 'Leu', 'Val', 'Pro', 'Leu', 'Ala', 'Pro')",1,1,9
+2022_Bhardwaj,"('Ala', 'Leu', 'Ile', 'Pro', 'Pro', 'Val', 'Pro', 'Ala', 'Leu', 'Phe')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Ile', 'Pro', 'Val', 'Ile', 'Pro', 'Leu', 'Phe', 'Leu', 'Pro', 'Pro')",1,1,12
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Ala', 'Phe', 'Pro', 'Leu', 'Phe', 'Pro', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Ala', 'Pro', 'Phe', 'Pro', 'Phe', 'Pro', 'Pro')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Ala', 'Val', 'Pro', 'Val', 'Pro', 'Pro')",1,1,9
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Ile', 'Pro', 'Pro', 'Ala', 'Val', 'Phe')",1,1,9
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Ile', 'Val', 'Pro', 'Pro', 'Pro')",1,1,8
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Leu', 'Pro', 'Pro', 'Ala', 'Phe')",1,1,8
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Leu', 'Pro', 'Pro', 'Leu', 'Phe', 'Ile', 'Pro')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Pro', 'Leu', 'Leu', 'Pro', 'Ala', 'Met')",1,1,9
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Pro', 'Leu', 'Pro', 'Pro', 'Leu', 'Phe')",1,1,9
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Pro', 'Phe', 'Leu', 'Val', 'Pro', 'Pro')",1,1,9
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Pro', 'Pro', 'Ala', 'Leu', 'Phe', 'Pro', 'Ile')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Pro', 'Pro', 'Ala', 'Pro', 'Pro', 'Leu')",1,1,9
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Pro', 'Pro', 'Leu', 'Leu', 'Ala', 'Leu', 'Pro', 'Leu')",1,1,11
+2022_Bhardwaj,"('Ala', 'Leu', 'Leu', 'Val', 'Ala', 'Pro', 'Pro', 'Val')",1,1,8
+2022_Bhardwaj,"('Ala', 'Leu', 'Phe', 'Ile', 'Pro', 'Ala', 'Pro', 'Pro', 'Leu', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Phe', 'Leu', 'Ala', 'Pro', 'Pro', 'Leu', 'Val', 'Pro', 'Pro')",1,1,11
+2022_Bhardwaj,"('Ala', 'Leu', 'Phe', 'Leu', 'Val', 'Ala', 'Pro', 'Pro')",1,1,8
+2022_Bhardwaj,"('Ala', 'Leu', 'Phe', 'Leu', 'Val', 'Ile', 'Pro', 'Ala', 'Leu', 'Pro', 'Pro')",1,1,11
+2022_Bhardwaj,"('Ala', 'Leu', 'Pro', 'Ala', 'Pro', 'Pro', 'Val', 'Leu', 'Leu', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Pro', 'Leu', 'Ala', 'Leu', 'Pro', 'Leu')",1,1,8
+2022_Bhardwaj,"('Ala', 'Leu', 'Pro', 'Leu', 'Leu', 'Ile', 'Pro', 'Val', 'Ile', 'Pro')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Pro', 'Leu', 'Leu', 'Phe', 'Leu', 'Sar', 'Pro', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Pro', 'Leu', 'Leu', 'Pro', 'Val', 'Phe')",1,1,8
+2022_Bhardwaj,"('Ala', 'Leu', 'Pro', 'Pro', 'Leu', 'Leu', 'Pro')",1,1,7
+2022_Bhardwaj,"('Ala', 'Leu', 'Pro', 'Pro', 'Leu', 'Pro', 'Pro', 'Val', 'Met')",1,1,9
+2022_Bhardwaj,"('Ala', 'Leu', 'Pro', 'Val', 'Val', 'Pro', 'Pro', 'Ala', 'Val', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Val', 'Leu', 'Leu', 'Pro', 'Ala', 'Pro', 'Pro', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Val', 'Phe', 'Pro', 'Pro', 'Leu', 'Ala', 'Pro', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Val', 'Pro', 'Ala', 'Phe', 'Leu', 'Leu', 'Pro', 'Pro')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Val', 'Pro', 'Leu', 'Val', 'Pro', 'Leu', 'Val', 'Ile')",1,1,10
+2022_Bhardwaj,"('Ala', 'Leu', 'Val', 'Val', 'Pro', 'Pro', 'Ala', 'Phe', 'Leu')",1,1,9
+2022_Bhardwaj,"('Ala', 'Phe', 'Ile', 'Leu', 'Ala', 'Pro', 'Pro', 'Pro', 'Met', 'Val')",1,1,10
+2022_Bhardwaj,"('Ala', 'Phe', 'Ile', 'Phe', 'Pro', 'Pro', 'Ala', 'Pro', 'Leu')",1,1,9
+2022_Bhardwaj,"('Ala', 'Phe', 'Leu', 'Val', 'Leu', 'Leu', 'Pro', 'Leu', 'Ala', 'Pro', 'Pro')",1,1,11
+2022_Bhardwaj,"('Ala', 'Phe', 'Pro', 'Pro', 'Val', 'Val', 'Leu', 'Ala', 'Val', 'Pro')",1,1,10
+2022_Bhardwaj,"('Ala', 'Phe', 'Val', 'Val', 'Pro', 'Ala', 'Pro', 'Pro', 'Met')",1,1,9
+2022_Bhardwaj,"('Ala', 'Pro', 'Ile', 'Pro', 'Pro', 'Leu', 'Val', 'Ile', 'Leu')",1,1,9
+2022_Bhardwaj,"('Ala', 'Pro', 'Leu', 'Ala', 'Pro', 'Leu', 'Val', 'Leu', 'Ile', 'Pro', 'Leu')",1,1,11
+2022_Bhardwaj,"('Ala', 'Pro', 'Leu', 'Leu', 'Leu', 'Pro', 'Leu', 'Leu')",1,1,8
+2022_Bhardwaj,"('Ala', 'Pro', 'Leu', 'Leu', 'Leu', 'Pro', 'Leu', 'Val', 'Ile', 'Pro')",1,1,10
+2022_Bhardwaj,"('Ala', 'Pro', 'Leu', 'Phe', 'Leu', 'Val', 'Leu', 'Leu', 'Pro', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ala', 'Pro', 'Leu', 'Pro', 'Ala', 'Val', 'Leu', 'Phe', 'Ile')",1,1,9
+2022_Bhardwaj,"('Ala', 'Pro', 'Leu', 'Val', 'Ala', 'Pro', 'Leu', 'Val')",1,1,8
+2022_Bhardwaj,"('Ala', 'Pro', 'Leu', 'Val', 'Leu', 'Pro', 'Val', 'Ile', 'Pro', 'Phe')",1,1,10
+2022_Bhardwaj,"('Ala', 'Pro', 'Pro', 'Ala', 'Val', 'Leu', 'Leu', 'Leu', 'Leu')",1,1,9
+2022_Bhardwaj,"('Ala', 'Pro', 'Pro', 'Leu', 'Pro', 'Phe')",2,2,6
+2022_Bhardwaj,"('Ala', 'Pro', 'Pro', 'Leu', 'Pro', 'Pro', 'Ala', 'Val', 'Leu')",1,1,9
+2022_Bhardwaj,"('Ala', 'Pro', 'Pro', 'Leu', 'Val', 'Leu', 'Phe', 'Pro', 'Pro', 'Ile', 'Val')",1,1,11
+2022_Bhardwaj,"('Ala', 'Pro', 'Val', 'Leu', 'Phe', 'Phe', 'Pro', 'Leu', 'Ile')",1,1,9
+2022_Bhardwaj,"('Ala', 'Pro', 'Val', 'Leu', 'Pro', 'Ala', 'Val', 'Pro', 'Leu', 'Ile', 'Pro', 'Val')",1,1,12
+2022_Bhardwaj,"('Ala', 'Pro', 'Val', 'Phe', 'Pro', 'Phe')",2,2,6
+2022_Bhardwaj,"('Ala', 'Pro', 'Val', 'Pro', 'Pro', 'Pro', 'Leu', 'Phe', 'Leu', 'Leu', 'Ile')",1,1,11
+2022_Bhardwaj,"('Ala', 'Val', 'Ile', 'Pro', 'Phe', 'Ile', 'Pro')",2,2,7
+2022_Bhardwaj,"('Ala', 'Val', 'Leu', 'Phe', 'Leu', 'Pro', 'Leu', 'Ile', 'Pro', 'Pro')",2,2,10
+2022_Bhardwaj,"('Ala', 'Val', 'Pro', 'Leu', 'Phe', 'Ile', 'Pro', 'Leu', 'Leu', 'Pro')",1,1,10
+2022_Bhardwaj,"('Ala', 'Val', 'Pro', 'Leu', 'Val', 'Leu', 'Phe', 'Pro', 'Val')",1,1,9
+2022_Bhardwaj,"('Ala', 'Val', 'Pro', 'Met', 'Pro', 'Pro', 'Leu', 'Leu')",1,1,8
+2022_Bhardwaj,"('Ala', 'Val', 'Pro', 'Pro', 'Leu', 'Pro', 'Pro', 'Leu', 'Ile')",1,1,9
+2022_Bhardwaj,"('Ala', 'Val', 'Sar', 'Phe', 'Leu', 'Pro', 'Leu', 'Ile', 'Pro', 'Pro')",1,1,10
+2022_Bhardwaj,"('Gly', 'Pro', 'Leu', 'Val', 'Leu', 'Leu', 'Phe', 'Val', 'Pro')",1,1,9
+2022_Bhardwaj,"('Ile', 'Ile', 'Phe', 'Phe', 'Pro', 'Pro', 'Leu', 'Ile', 'Pro')",1,1,9
+2022_Bhardwaj,"('Ile', 'Ile', 'Pro', 'Leu', 'Ile', 'Ile', 'Pro', 'Val', 'Pro', 'Pro', 'Leu')",1,1,11
+2022_Bhardwaj,"('Ile', 'Ile', 'Pro', 'Leu', 'Ile', 'Ile', 'Pro', 'Val', 'Pro', 'Val', 'Leu')",1,1,11
+2022_Bhardwaj,"('Ile', 'Ile', 'Pro', 'Phe', 'Ile', 'Ile', 'Pro', 'Val', 'Pro', 'Pro', 'Leu')",1,1,11
+2022_Bhardwaj,"('Ile', 'Leu', 'Leu', 'Pro', 'Phe', 'Val', 'Val', 'Pro', 'Pro')",1,1,9
+2022_Bhardwaj,"('Ile', 'Leu', 'Pro', 'Phe', 'Val', 'Pro', 'Sar', 'Phe', 'Leu', 'Leu')",1,1,10
+2022_Bhardwaj,"('Ile', 'Phe', 'Phe', 'Pro', 'Leu', 'Leu', 'Pro', 'Pro')",1,1,8
+2022_Bhardwaj,"('Ile', 'Phe', 'Phe', 'Pro', 'Leu', 'Leu', 'Sar', 'Pro')",1,1,8
+2022_Bhardwaj,"('Ile', 'Pro', 'Ile', 'Pro', 'Leu', 'Leu', 'Pro', 'Leu', 'Phe', 'Leu', 'Sar')",1,1,11
+2022_Bhardwaj,"('Ile', 'Pro', 'Leu', 'Ile', 'Val', 'Pro', 'Leu', 'Leu')",1,1,8
+2022_Bhardwaj,"('Ile', 'Pro', 'Leu', 'Leu', 'Leu', 'Pro', 'Leu')",1,1,7
+2022_Bhardwaj,"('Ile', 'Pro', 'Leu', 'Leu', 'Pro', 'Phe', 'Val', 'Leu', 'Leu')",1,1,9
+2022_Bhardwaj,"('Ile', 'Pro', 'Leu', 'Leu', 'Val', 'Pro', 'Leu', 'Leu')",1,1,8
+2022_Bhardwaj,"('Ile', 'Pro', 'Leu', 'Pro', 'Leu', 'Val', 'Phe', 'Leu', 'Pro', 'Phe')",1,1,10
+2022_Bhardwaj,"('Ile', 'Pro', 'Leu', 'Val', 'Leu', 'Pro', 'Pro')",1,1,7
+2022_Bhardwaj,"('Ile', 'Pro', 'Leu', 'Val', 'Pro', 'Pro', 'Leu', 'Val')",1,1,8
+2022_Bhardwaj,"('Ile', 'Pro', 'Phe', 'Ile', 'Pro', 'Phe')",2,2,6
+2022_Bhardwaj,"('Ile', 'Pro', 'Pro', 'Ile', 'Val', 'Pro', 'Phe', 'Phe')",1,1,8
+2022_Bhardwaj,"('Ile', 'Pro', 'Pro', 'Leu', 'Phe', 'Pro', 'Pro', 'Leu')",1,1,8
+2022_Bhardwaj,"('Ile', 'Val', 'Val', 'Leu', 'Pro', 'Val', 'Leu', 'Leu', 'Pro')",1,1,9
+2022_Bhardwaj,"('Leu', 'Leu', 'Leu', 'Leu', 'Leu', 'Phe', 'Pro', 'Pro')",1,1,8
+2022_Bhardwaj,"('Leu', 'Leu', 'Leu', 'Val', 'Pro', 'Pro', 'Leu', 'Val')",1,1,8
+2022_Bhardwaj,"('Leu', 'Leu', 'Phe', 'Leu', 'Val', 'Pro', 'Met', 'Leu', 'Pro')",1,1,9
+2022_Bhardwaj,"('Leu', 'Leu', 'Phe', 'Val', 'Pro', 'Val', 'Pro', 'Leu', 'Val')",1,1,9
+2022_Bhardwaj,"('Leu', 'Leu', 'Pro', 'Leu', 'Leu', 'Pro', 'Pro')",1,1,7
+2022_Bhardwaj,"('Leu', 'Leu', 'Pro', 'Pro', 'Leu', 'Leu', 'Pro', 'Pro')",2,2,8
+2022_Bhardwaj,"('Leu', 'Phe', 'Leu', 'Pro', 'Pro', 'Leu', 'Val', 'Pro')",1,1,8
+2022_Bhardwaj,"('Leu', 'Phe', 'Leu', 'Val', 'Leu', 'Pro', 'Val', 'Pro', 'Pro', 'Pro')",1,1,10
+2022_Bhardwaj,"('Leu', 'Phe', 'Leu', 'Val', 'Phe', 'Pro', 'Pro')",1,1,7
+2022_Bhardwaj,"('Leu', 'Pro', 'Leu', 'Val', 'Leu', 'Pro', 'Leu', 'Val')",1,1,8
+2022_Bhardwaj,"('Leu', 'Pro', 'Phe', 'Pro', 'Val', 'Phe')",2,2,6
+2022_Bhardwaj,"('Leu', 'Val', 'Pro', 'Pro', 'Leu', 'Val', 'Pro', 'Pro')",1,1,8
+2022_Bhardwaj,"('Phe', 'Phe', 'Pro', 'Val', 'Pro', 'Val', 'Val', 'Pro', 'Val', 'Pro')",1,1,10
+2022_Bhardwaj,"('Phe', 'Pro', 'Phe', 'Pro', 'Pro', 'Val')",2,2,6
+2022_Lee,"('Abu', 'Sar', 'Leu', 'Val', 'Leu', 'Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Bmt(E)')",1,1,11
+2022_Lee,"('Ala', 'Ala', 'Leu', 'Leu', 'Val', 'Leu', 'Nva', 'Sar', 'Leu', 'Val', 'Leu')",1,1,11
+2022_Lee,"('Ala', 'Leu', 'Leu', 'Leu', 'Leu', 'Nva', 'Sar', 'Leu', 'Val', 'Leu', 'Gln')",1,1,11
+2022_Lee,"('Ala', 'Leu', 'Leu', 'Leu', 'Leu', 'Nva', 'Sar', 'Sar', 'Val', 'Leu', 'Gln')",1,1,11
+2022_Lee,"('Ala', 'Leu', 'Sar', 'Leu', 'Leu', 'Nva', 'Sar', 'Leu', 'Val', 'Leu', 'Gln')",1,1,11
+2022_Lee,"('Ala', 'Sar', 'Leu', 'Leu', 'Leu', 'Nva', 'Sar', 'Leu', 'Val', 'Leu', 'Gln')",1,1,11
+2022_Saunders,"('Ala', 'Pro', 'Gly', 'Leu', 'Gly', 'Phe')",1,1,6
+2022_Taechalertpaisarn,"('Asn(Me2)', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro')",1,1,6
+2022_Taechalertpaisarn,"('Asp(pyrrol-1-yl)', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro')",1,1,6
+2022_Taechalertpaisarn,"('Gln(Me2)', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro')",1,1,6
+2022_Taechalertpaisarn,"('Glu(OMe)', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro')",1,1,6
+2022_Taechalertpaisarn,"('Leu', 'Leu', 'Leu', 'Leu', 'Leu', 'Pro')",3,3,6
+2022_Tamura,"('1Nal', 'Pro', 'Cha', 'Trp', 'Arg', 'Cys(EtO2H)-NH2')",1,1,6
+2022_Tamura,"('1Nal', 'Pro', 'Cha', 'Trp', 'Arg', 'Glu-NH2')",1,1,6
+2022_Tamura,"('1Nal', 'Pro', 'Cha', 'Trp', 'Lys', 'Cys(EtO2H)-NH2')",1,1,6
+2022_Tamura,"('Ala', 'Pro', 'Cha', 'Trp', 'Arg', 'Cys(EtO2H)-NH2')",1,1,6
+2022_Tamura,"('Ala', 'Pro', 'Cha', 'Trp', 'Arg', 'Glu-NH2')",1,1,6
+2022_Tamura,"('Arg', 'Cys(EtO2H)-NH2', 'Phe', 'Pro', 'Cha', 'Trp')",1,1,6
+2022_Tamura,"('Arg', 'Glu-NH2', 'Phe', 'Pro', 'Cha', 'Trp')",1,1,6
+2023_Ghosh,"('Ala', 'Ala', 'Phe', 'Pro', 'Ile', 'Pro', 'Ile')",1,1,7
+2023_Ghosh,"('Ala', 'Pro', 'Leu', 'Leu', 'Leu', 'Pro', 'Leu', 'Leu')",1,1,8
+2023_Ghosh,"('Leu', 'Leu', 'Leu', 'Leu', 'Pro', 'Tyr')",6,6,6
+2023_Ghosh,"('Lys', 'Thr', 'Phe', 'Pro', 'Phe', 'Trp')",1,1,6
+2024_Bergeron,"('Ala', 'Arg', 'Ile', 'Phe', 'Val', 'Leu', 'Phe')",1,1,7
+2024_Bergeron,"('Ala', 'Ile', 'Ile', 'Phe', 'Val', 'Leu', 'Phe')",1,1,7
+2024_Bergeron,"('Ala', 'Lys', 'Ile', 'Phe', 'Val', 'Leu', 'Phe')",1,1,7

@@ -1,0 +1,4 @@
+method,n_parents,mean_parent_delta_PAMPA,mean_parent_regret,median_parent_regret,mean_optimum_rate,mean_oracle_calls
+generate_and_rank,2,0.4249999999999994,0.0,0.0,1.0,4.5
+guided_search,2,0.4249999999999994,0.0,0.0,1.0,4.0
+random_search,2,0.4249999999999994,0.0,0.0,1.0,4.0

@@ -1,0 +1,24 @@
+{
+  "validation_best_mae": 0.5019916833424177,
+  "test": {
+    "mae": 0.5481952371757675,
+    "rmse": 0.6713556721475982,
+    "r2": -0.44826133988653405
+  },
+  "training": {
+    "epochs": 3,
+    "batch_size": 16,
+    "lr": 2e-05
+  },
+  "seed": 42,
+  "split": {
+    "train_clusters": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_cluster": 2,
+    "test_cluster": 1
+  }
+}

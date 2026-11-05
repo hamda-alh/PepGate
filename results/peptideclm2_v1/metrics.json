@@ -1,0 +1,26 @@
+{
+  "model": "aaronfeller/peptideclm-2-hybrid-small",
+  "seed": 42,
+  "best_epoch": 1,
+  "best_validation_mae": 0.5385540980471378,
+  "test": {
+    "mae": 0.5446440598808224,
+    "rmse": 0.668862530523371,
+    "r2": -0.4542406606400513
+  },
+  "training": {
+    "epochs": 3,
+    "batch_size": 16,
+    "lr": 2e-05
+  },
+  "split": {
+    "train_clusters": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_cluster": 2,
+    "test_cluster": 1
+  }
+}

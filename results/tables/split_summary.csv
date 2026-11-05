@@ -1,0 +1,4 @@
+split,n_peptides,n_parents,n_sources,n_censored,townsend_fraction,pampa_mean,pampa_sd
+test,321,5,3,32,0.9439,-6.0056,0.9456
+train,1663,405,29,119,0.6885,-5.8411,0.9602
+validation,113,5,4,12,0.8938,-5.9936,0.9875

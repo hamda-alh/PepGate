@@ -27,3 +27,23 @@ checkpoints/
 *.parquet
 *.h5
 *.hdf5
+
+# Third-party code
+external/
+
+# Model artifacts
+checkpoints/
+models/pretrained/
+*.pt
+*.pth
+*.safetensors
+
+# Hugging Face cache
+.cache/huggingface/
+
+# Slurm logs
+slurm/logs/
+
+# Obsolete cluster-split data
+data/processed/peptideclm_v1/
+data/processed/peptideclm2_v1/

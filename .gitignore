@@ -47,3 +47,10 @@ slurm/logs/
 # Obsolete cluster-split data
 data/processed/peptideclm_v1/
 data/processed/peptideclm2_v1/
+
+# Cached embeddings (regenerable, large)
+results/embeddings/
+
+# Superseded cluster-split results
+results/peptideclm_v1/
+results/peptideclm2_v1/

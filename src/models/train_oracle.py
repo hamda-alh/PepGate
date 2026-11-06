@@ -398,11 +398,43 @@ def run_seed(args, config, splits, device, seed):
 
     model.load_state_dict(best_state)
 
+    val_metrics, val_predictions = evaluate(
+        model, family, loaders["validation"], device
+    )
+
     test_metrics, test_predictions = evaluate(
         model, family, loaders["test"], device
     )
 
+    val_predictions["seed"] = seed
     test_predictions["seed"] = seed
+
+    # One offset estimated on uncensored validation peptides, applied to
+    # test. Sentinels sit at the clamp and would drag the estimate.
+    clean = ~val_predictions["censored"]
+
+    offset = float(
+        (
+            val_predictions.loc[clean, "prediction"]
+            - val_predictions.loc[clean, "PAMPA"]
+        ).mean()
+    )
+
+    recalibrated = test_predictions.copy()
+    recalibrated["prediction"] = recalibrated["prediction"] - offset
+
+    test_predictions["prediction_recalibrated"] = recalibrated["prediction"]
+
+    recalibrated_metrics = {
+        "offset_from_validation": offset,
+        "all": regression_metrics(
+            recalibrated["PAMPA"], recalibrated["prediction"]
+        ),
+        "uncensored": regression_metrics(
+            recalibrated.loc[~recalibrated["censored"], "PAMPA"],
+            recalibrated.loc[~recalibrated["censored"], "prediction"],
+        ),
+    }
 
     print(
         f"  best epoch {best_epoch} | test MAE "
@@ -411,12 +443,19 @@ def run_seed(args, config, splits, device, seed):
         f"{test_metrics['all']['spearman']:.4f}"
     )
 
+    print(
+        f"  offset {offset:+.4f} (validation) | recalibrated test "
+        f"MAE {recalibrated_metrics['uncensored']['mae']:.4f} | R2 "
+        f"{recalibrated_metrics['uncensored']['r2']:.4f} (uncensored)"
+    )
+
     return {
         "seed": seed,
         "best_epoch": best_epoch,
         "validation_best_mae": best_mae,
         "test": test_metrics,
-    }, test_predictions
+        "test_recalibrated": recalibrated_metrics,
+    }, test_predictions, val_predictions
 
 
 def constant_baseline(splits):
@@ -481,16 +520,25 @@ def main(args):
 
     runs = []
     predictions = []
+    validation_predictions = []
 
     for seed in args.seeds:
-        summary, frame = run_seed(args, config, splits, device, seed)
+        summary, frame, val_frame = run_seed(
+            args, config, splits, device, seed
+        )
         runs.append(summary)
         predictions.append(frame)
+        validation_predictions.append(val_frame)
 
-    all_predictions = pd.concat(predictions, ignore_index=True)
-    all_predictions.to_csv(output_dir / "test_predictions.csv", index=False)
+    pd.concat(predictions, ignore_index=True).to_csv(
+        output_dir / "test_predictions.csv", index=False
+    )
 
-    print("\n=== across seeds ===")
+    pd.concat(validation_predictions, ignore_index=True).to_csv(
+        output_dir / "validation_predictions.csv", index=False
+    )
+
+    print("\n=== across seeds (raw) ===")
 
     for scope in ["all", "uncensored"]:
         for metric in ["mae", "rmse", "r2", "spearman", "bias"]:
@@ -499,6 +547,26 @@ def main(args):
 
             print(f"  {scope:<11} {metric:<9} "
                   f"{np.mean(values):8.4f} +/- {np.std(values):.4f}")
+
+    print("\n=== across seeds (recalibrated on validation) ===")
+
+    offsets = [
+        r["test_recalibrated"]["offset_from_validation"] for r in runs
+    ]
+
+    print(f"  offset      {np.mean(offsets):8.4f} +/- {np.std(offsets):.4f}")
+
+    for scope in ["all", "uncensored"]:
+        for metric in ["mae", "rmse", "r2", "spearman", "bias"]:
+
+            values = [r["test_recalibrated"][scope][metric] for r in runs]
+
+            print(f"  {scope:<11} {metric:<9} "
+                  f"{np.mean(values):8.4f} +/- {np.std(values):.4f}")
+
+    print(f"\n  constant baseline uncensored MAE "
+          f"{baseline['uncensored']['mae']:.4f}  "
+          f"RMSE {baseline['uncensored']['rmse']:.4f}")
 
     with open(output_dir / "metrics.json", "w") as handle:
         json.dump(

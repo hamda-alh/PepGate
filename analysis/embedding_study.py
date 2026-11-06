@@ -207,6 +207,25 @@ def leave_one_parent_out(embeddings, index, peptides, pairs):
         clean = ~subset["pair_censored"].to_numpy()
         decided = ~tied
 
+        # Trivial baseline: ignore the peptide and answer with the
+        # marginal direction of each edit type, estimated on the other
+        # parents. A model that merely absorbs this prior will match it.
+        other = pairs[pairs["sidechain_signature"] != parent]
+
+        prior_up = (
+            other.assign(up=other["delta"] > 0)
+            .groupby("edit_type")["up"]
+            .mean()
+        )
+
+        prior_sign = (
+            subset["edit_type"]
+            .map(lambda e: 1.0 if prior_up.get(e, 0.5) > 0.5 else -1.0)
+            .to_numpy()
+        )
+
+        prior_correct = prior_sign == np.sign(true_delta)
+
         # Within-parent Spearman over the measured patterns themselves.
         members = peptides[peptides["sidechain_signature"] == parent]
 
@@ -229,6 +248,10 @@ def leave_one_parent_out(embeddings, index, peptides, pairs):
                 "n_pairs_uncensored": int(clean.sum()),
                 "tie_rate": float(tied.mean()),
                 "pair_accuracy": float(correct.mean()),
+                "prior_accuracy": float(prior_correct.mean()),
+                "lift_over_prior": float(
+                    correct.mean() - prior_correct.mean()
+                ),
                 "pair_accuracy_decided": (
                     float(correct[decided].mean())
                     if decided.any() else np.nan
@@ -243,6 +266,14 @@ def leave_one_parent_out(embeddings, index, peptides, pairs):
                     float(rho) if rho == rho else np.nan
                 ),
                 "n_members": int(len(members)),
+                **{
+                    f"acc_{edit}": float(
+                        correct[
+                            (subset["edit_type"] == edit).to_numpy()
+                        ].mean()
+                    )
+                    for edit in subset["edit_type"].unique()
+                },
             }
         )
 
@@ -359,6 +390,19 @@ def run_encoder(encoder, peptides, pairs):
           f"accuracy among decided pairs "
           f"{lopo['pair_accuracy_decided'].mean():.4f}")
 
+    print(f"  edit-type prior baseline "
+          f"{lopo['prior_accuracy'].mean():.4f}  "
+          f"| model lift {lopo['lift_over_prior'].mean():+.4f} "
+          f"+/- {lopo['lift_over_prior'].std():.4f}")
+
+    for edit in ["NMe", "D"]:
+        column = f"acc_{edit}"
+        if column in lopo:
+            values = lopo[column].dropna()
+            if len(values):
+                print(f"  {edit:<4} accuracy {values.mean():.4f} "
+                      f"over {len(values)} parents")
+
     rho = lopo["within_parent_spearman"].dropna()
 
     print(f"  within-parent rho {rho.mean():.4f} +/- {rho.std():.4f} "
@@ -384,6 +428,9 @@ def run_encoder(encoder, peptides, pairs):
                 np.average(accuracy, weights=lopo["n_pairs"])
             ),
             "tie_rate_mean": float(lopo["tie_rate"].mean()),
+            "prior_accuracy_mean": float(lopo["prior_accuracy"].mean()),
+            "lift_over_prior_mean": float(lopo["lift_over_prior"].mean()),
+            "lift_over_prior_sd": float(lopo["lift_over_prior"].std()),
             "pair_accuracy_decided_mean": float(
                 lopo["pair_accuracy_decided"].mean()
             ),
@@ -435,6 +482,8 @@ def main(args):
                 "pair_acc_mean": s["lopo"]["pair_accuracy_mean"],
                 "pair_acc_sd": s["lopo"]["pair_accuracy_sd"],
                 "pair_acc_pooled": s["lopo"]["pair_accuracy_pooled"],
+                "prior_acc": s["lopo"]["prior_accuracy_mean"],
+                "lift_over_prior": s["lopo"]["lift_over_prior_mean"],
                 "tie_rate": s["lopo"]["tie_rate_mean"],
                 "pair_acc_decided": s["lopo"][
                     "pair_accuracy_decided_mean"

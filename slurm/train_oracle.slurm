@@ -70,9 +70,9 @@ echo
 
 # Fine-tune PeptideCLM-2 Hybrid-small for PAMPA regression
 "$ENV/bin/python" -u src/models/train_oracle.py --model peptideclm1 \
-    --epochs 3 \
+    --epochs 10 \
     --batch-size 16 \
-    --lr 2e-5
+    --lr 1e-5
 
 echo
 echo "Training finished: $(date)"

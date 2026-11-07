@@ -54,3 +54,6 @@ results/embeddings/
 # Superseded cluster-split results
 results/peptideclm_v1/
 results/peptideclm2_v1/
+
+# Conformer cache (regenerable)
+conformer_cache.pkl
